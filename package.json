@@ -1,0 +1,40 @@
+{
+  "name": "gulp-css-deep-import",
+  "version": "1.0.1",
+  "description": "import directories in your CSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "gulpplugin",
+    "css",
+    "glob",
+    "import",
+    "directory",
+    "bulk",
+    "import"
+  ],
+  "author": "Nova Vovikov",
+  "license": "MIT",
+  "dependencies": {
+    "glob": "^4.0.6",
+    "through2": "^0.6.3",
+    "vinyl-fs": "^0.3.9"
+  },
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^1.21.4"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/novavovikov/gulp-css-deep-import.git"
+  },
+  "bugs": {
+    "url": "https://github.com/novavovikov/gulp-css-deep-import/issues"
+  },
+  "homepage": "https://github.com/novavovikov/gulp-css-deep-import#readme"
+}
