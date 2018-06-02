@@ -19,10 +19,10 @@ npm install --save-dev gulp-css-deep-import
 
 @import "some/path/*";
 
-// becomes
-// @import "some/path/file1.css";
-// @import "some/path/file2.css";
-// ...
+
+@import "some/path/file1.css";
+@import "some/path/file2.css";
+...
 
 ```
 
@@ -35,10 +35,6 @@ gulp.task('css', function() {
     return gulp
             .src(srcDir + 'stylesheets/app.css')
             .pipe(importCss())
-            .pipe(
-                sass({
-                    includePaths: ['src/stylesheets']
-                }))
             .pipe( gulp.dest('./public/css/') );
 });
 ```
